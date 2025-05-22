@@ -12,7 +12,8 @@ export default defineConfig({
       external: [
         'react-icons/md',
         'react-icons/im',
-         'react-icons/fa'  
+         'react-icons/fa',
+        'react-hook-form'
 
       ]
     }
