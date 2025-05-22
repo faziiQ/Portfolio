@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 // To (standard import):
 import { MdMenu } from "react-icons/md";
-import { ImCross } from "react-icons/md";
+import { ImCross } from "react-icons/im";
 
 
 
