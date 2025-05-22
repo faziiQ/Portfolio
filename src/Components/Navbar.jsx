@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import { MdMenu } from "react-icons/md";
 import { ImCross } from "react-icons/im";
-import {Link} from 'react-scroll'
 
+// To (more reliable individual imports):
+import { MdMenu } from "react-icons/md/mdMenu";
+import { ImCross } from "react-icons/im/imCross";
 
 function Navbar() {
     const [menu, setmenu] = useState(false)
