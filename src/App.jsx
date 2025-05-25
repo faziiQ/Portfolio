@@ -1,5 +1,4 @@
-import './App.css'
-import NavBar from './Components/Navbar'
+import NavBar from './Components/NavBar'
 import Home from './Components/Home'
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
@@ -11,18 +10,16 @@ import { Toaster } from 'react-hot-toast'
 function App() {
   return (
     <>
-      <div>
-        <NavBar />
-      <div className="pt-10"> {/* Increased padding to ensure content doesn't hide under navbar */}
+      <NavBar />
+      <div className="pt-10">
         <div id="Home"><Home /></div>
         <div id="About"><About /></div>
         <div id="Projects"><Portfolio /></div>
         <div id="Experience"><Experience /></div>
         <div id="Contact"><Contact /></div>
-        <Footer />
       </div>
-      <Toaster/>
-      </div>
+      <Footer />
+      <Toaster />
     </>
   )
 }
