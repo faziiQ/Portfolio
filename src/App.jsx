@@ -11,6 +11,10 @@ function App() {
   return (
     <>
       <div>
+      <h1>Hello, world!</h1>
+      <p>If you see this, React is rendering properly.</p>
+    </div>
+      <div>
         <Navbar />
       <div className="pt-10"> {/* Increased padding to ensure content doesn't hide under navbar */}
         <div id="Home"><Home /></div>
