@@ -7,8 +7,9 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  // Remove external completely unless you have specific reason to exclude something
   css: {
-    postcss: './postcss.config.js', // keep if you use PostCSS config
+    postcss: './postcss.config.js',
     modules: false
   }
 })
