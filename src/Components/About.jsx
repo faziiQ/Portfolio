@@ -1,9 +1,11 @@
 import React from 'react';
-import resume from '../assets/resume.pdf'; // Assuming you have a resume.pdf in assets
+
 const About = () => {
   const handleDownloadResume = () => {
-  
-  window.open(resume, '_blank');
+    const link = document.createElement('a');
+    link.href = 'D:\New folder (4)\New folder\Portfolio\src\assets\resume.pdf'; // Path relative to public folder
+    link.download = 'Faizan-Ali-CV.pdf'; // Better filename without special characters
+    link.click();
 
   };
 
