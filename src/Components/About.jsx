@@ -1,6 +1,12 @@
 import React from 'react'
-
+import resume from '../assets/resume.pdf'
 function About() {
+   const handleDownloadResume = () => {
+
+const handleDownloadResume = () => {
+  window.open(resume, '_blank');
+};
+  };
   return (
     <div name='About' className='max-w-screen-2xl container mx-auto px-4 md:px-20 '>
       <h1 className='text-3xl font-medium text-center text-[#05445E] '>About</h1>
